@@ -4,8 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  font-family: "Lato", sans-serif;
-  background-color: black;
+  background-color: #142f26;
 }
 
 .center {
@@ -25,7 +24,7 @@ body {
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .sidenav a {
@@ -45,11 +44,16 @@ body {
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  font-size: 50px;
+  margin-left: 60px;
 }
 
 #main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+  
+#main2 {
   transition: margin-left .5s;
   padding: 16px;
 }
@@ -72,7 +76,7 @@ body {
 <br>
 <br>
 <div id="main">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <span style="font-size:50px; cursor:pointer; color:white;" onclick="openNav()">&#9776;</span>
   <img src="elt.jpg" alt="earth" class="center">
 </div>
 <br>
